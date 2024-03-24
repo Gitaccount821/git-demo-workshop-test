@@ -1,0 +1,58 @@
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+article {
+    margin-right: 20px;
+}
+
+article:last-child {
+    margin-right: 0;
+}
+
+/* Optional: Add styles for better visual presentation */
+article {
+    flex: 1;
+    max-width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none; /* Remove border around the container */
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+/* Optional: Add styles for better visual presentation */
+h2 {
+    margin: 0;
+}
+
+span {
+    margin-left: 10px;
+}
+
+
